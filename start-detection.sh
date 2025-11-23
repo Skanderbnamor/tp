@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "========================================================"
 echo "  DEMARRAGE DU JOB SPARK STREAMING (FRAUD DETECTION)"
 echo "========================================================"

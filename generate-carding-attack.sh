@@ -9,7 +9,7 @@ echo ""
 # --- CONFIGURATION ---
 CONTAINER_NAME="kafka"
 TOPIC_NAME="fraud_alerts"
-COUNT=500
+COUNT=50  # Réduit pour les tests, augmenter si besoin
 
 # Tableau associatif des pays avec coordonnées
 declare -A TARGETS=(
